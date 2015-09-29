@@ -1,6 +1,9 @@
 {
 :lang :hebrew
 :sgpref "heb"
+:datasource "Lambdin1971"
+:geodemoURL "http://www.ethnologue.com/language/hbo"
+:geodemoTXT "Varieties and dialects of Biblical Hebrew were spoken in and around modern-day Israel during the first millennium BCE. It was gradually replaced as principal spoken language by varieties of Aramaic, but remained as a language of scholarship and religion until the modern period, when it was revived as the official language of the state of Israel. The bibliography is huge, but the Hebrew data used here for comparative purposes is simply taken from the pedagogical grammar of T. Lambdin."
 :schemata {
 :ablautClass [:Common, :MidWeak, :a, :a-a, :a-e, :a-o, :e-a]
 	  :case [:Accusative, :Dative, :Nominative, :Object]
@@ -580,7 +583,7 @@
 	    [:Masc, :Plural, "⊤", "yiṭḇ", "-û", "⊤-yiṭḇ--û"],
 	    [:Fem, :Plural, "⊤", "yǝṭaḇ", "-nāh", "⊤-yǝṭaḇ--nāh"]]
     }
-    {:label "hebrew-VHCCBPerf-`md"
+    {:label "hebrew-VHCCBPerf-md"
     :note "Lambdin1971"
     :common {:ablautClass :a-o,
 	    :derivedStem :B,
@@ -654,7 +657,7 @@
 	    [:Masc, :Plural, :Person3, "⊤", "nāp̄ǝl", "-û", "⊤-nāp̄ǝl--û"],
 	    [:Fem, :Plural, :Person3, "⊤", "nāp̄ǝl", "-û", "⊤-nāp̄ǝl--û"]]
     }
-    {:label "hebrew-VNCCBImprtv-ng`"
+    {:label "hebrew-VNCCBImprtv-ng_"
     :note "Lambdin1971"
     :common {:ablautClass :a,
 	    :derivedStem :B,
@@ -787,7 +790,7 @@
 	    [:Masc, :Plural, :Person3, "yi-", "mṣǝʾ", "-û", "yi--mṣǝʾ--û"],
 	    [:Fem, :Plural, :Person3, "ti-", "mṣệ(ʾ)", "-nāh", "ti--mṣệ(ʾ)--nāh"]]
     }
-    {:label "hebrew-VHCCBJuss-`md"
+    {:label "hebrew-VHCCBJuss-md"
     :note "Lambdin1971"
     :common {:ablautClass :a-o,
 	    :derivedStem :B,
@@ -807,7 +810,7 @@
 	    [:Masc, :Plural, :Person3, "ya-", "ʕamḏ", "-û", "ya--ʕamḏ--û"],
 	    [:Fem, :Plural, :Person3, "ta-", "ʕămōḏ", "-nāh", "ta--ʕămōḏ--nāh"]]
     }
-    {:label "hebrew-VNCCBImperf-ng`"
+    {:label "hebrew-VNCCBImperf-ng_"
     :note "Lambdin1971"
     :common {:ablautClass :a,
 	    :derivedStem :B,
@@ -1038,7 +1041,7 @@
 	    [:Masc, :Plural, :Person3, "⊤", "šālǝḥ", "-û", "⊤-šālǝḥ--û"],
 	    [:Fem, :Plural, :Person3, "⊤", "šālǝḥ", "-û", "⊤-šālǝḥ--û"]]
     }
-    {:label "hebrew-VNCCBJuss-ng`"
+    {:label "hebrew-VNCCBJuss-ng_"
     :note "Lambdin1971"
     :common {:ablautClass :a,
 	    :derivedStem :B,
@@ -1097,7 +1100,7 @@
 	    [:Masc, :Plural, :Person3, "yē-", "qall", "-û", "yē--qall--û"],
 	    [:Fem, :Plural, :Person3, "tǝ-", "qall", "-ệnāh", "tǝ--qall--ệnāh"]]
     }
-    {:label "hebrew-VNCCBPerf-ng`"
+    {:label "hebrew-VNCCBPerf-ng_"
     :note "Lambdin1971"
     :common {:ablautClass :a,
 	    :derivedStem :B,
@@ -1348,7 +1351,7 @@
 	    [:Masc, :Plural, :Person3, "yi-", "ḇn", "-û", "yi--ḇn--û"],
 	    [:Fem, :Plural, :Person3, "ti-", "ḇn", "-ệnāh", "ti--ḇn--ệnāh"]]
     }
-    {:label "hebrew-VHCCBImperf-`md"
+    {:label "hebrew-VHCCBImperf-md"
     :note "Lambdin1971"
     :common {:ablautClass :a-o,
 	    :derivedStem :B,
@@ -1387,7 +1390,7 @@
 	    [:Masc, :Plural, :Person3, "yo-", "šmǝḏ", "-û", "yo--šmǝḏ--û"],
 	    [:Fem, :Plural, :Person3, "to-", "šmaḏ", "-nāh", "to--šmaḏ--nāh"]]
     }
-    {:label "hebrew-VHCCBImprtv-`md"
+    {:label "hebrew-VHCCBImprtv-md"
     :note "Lambdin1971"
     :common {:ablautClass :a-o,
 	    :derivedStem :B,
