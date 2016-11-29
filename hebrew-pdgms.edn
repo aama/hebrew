@@ -15,6 +15,7 @@
           :derivedStem [:B :D :D-polel :Du :N :Polal :Polel :S :S2t :St :Su],
           :numHead [:HeadPlural :HeadSingular],
           :morphClass [:SubjMarker],
+          :pdgmType [:Finite :NA :SubjMarker]
           :proClass [:Demonstrative :Independent :ObjClitic :lamedSuff],
           :tam [:Imperative :Imperfect :Jussive :Perfect],
           :number [:Plural :Singular],
@@ -2099,4 +2100,3 @@
 }
  
  
-:pdgmType [ #{#<Atom@15aab8c6: #{:Finite :NA :SubjMarker}>} ]
