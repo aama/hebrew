@@ -5,21 +5,20 @@
 :datasource "Lambdin1971"
 :geodemoURL "http://www.ethnologue.com/language/hbo"
 :geodemoTXT "Varieties and dialects of Biblical Hebrew were spoken in and around modern-day Israel during the first millennium BCE. It was gradually replaced as principal spoken language by varieties of Aramaic, but remained as a language of scholarship and religion until the modern period, when it was revived as the official language of the state of Israel. The bibliography is huge, but the Hebrew data used here for comparative purposes is simply taken from the pedagogical grammar of T. Lambdin."
-:schemata{:gender [:Common :Fem :Masc],
-          :tenseHead [:HeadImperfect :HeadJussive :HeadPerfect],
-          :rootClass [:ACC :C1C2C2 :CAC :CCA :CCC :CCh :CCy :ChC :CwC :CyC :HCC :NCC :WCC :YCC],
-          :case [:Accusative :Dative :Nominative :Object],
-          :ablautClass [:MidWeak :AClass :A_aClass :A_eClass :A_oClass :E_aClass],
-          :pos [:Pronoun :Verb],
-          :person [:Person1 :Person2 :Person3],
-          :derivedStem [:B :D :D-polel :Du :N :Polal :Polel :S :S2t :St :Su],
-          :numHead [:HeadPlural :HeadSingular],
-          :morphClass [:SubjMarker],
-          :pdgmType [:Finite :NA :SubjMarker]
-          :proClass [:Demonstrative :Independent :ObjClitic :lamedSuff],
-          :tam [:Imperative :Imperfect :Jussive :Perfect],
-          :number [:Plural :Singular],
-          :deixis [:Far :Near]}
+ :schemata {:ablautClass [:AClass  :A_aClass :A_eClass :A_oClass :E_aClass :MidWeak],
+            :case [:Accusative :Dative :Nominative :Object],
+            :deixis [:Far :Near],
+            :derivedStem [:B :D :Du :N :S :St :Su],
+            :gender [:Common :Fem :Masc],
+            :numHead [:HeadPlural :HeadSingular],
+            :number [:Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :pos [:Pronoun :Verb],
+            :proClass [:Demonstrative :Independent :ObjClitic :LamedSuff],
+            :rootClass [:ACC :C1C2C2 :CCA :CCC :CCh :CCy :CwC :CyC :HCC :NCC :WCC :YCC],
+            :tam [:Imperative :Imperfect :Jussive :Perfect],
+            :tenseHead [:Imperfect :Jussive :Perfect]
+            :pdgmType [:Finite :SubjMarker :PRO]}
 :pclass {:pngClass [:person :number :gender :numHead],
           :synsemClass [:case :deixis :derivedStem :polarity :pos :proClass :tam :tenseHead],
           :inflClass [:ablautClass :rootClass],
@@ -1919,9 +1918,8 @@
 :muterms [
     {:label "hebrew-PDem"
     :note "Lambdin1971 pp. 34-35."
-    :pdgmType :NA
-    :common {:morpheme :PRODEM,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Demonstrative}
     :terms [[:deixis :number :gender :token],
             [:Far :Singular :Masc "hûʾ"],
@@ -1935,9 +1933,8 @@
     }
     {:label "hebrew-PIndep"
     :note "Lambdin1971 p. 82. These are the nom(inative) pronouns (used for subjects);dat(ive) pronouns (used for indirect objects;the preposition ʾeṯ plus suffixes);and acc(usative) pronouns (used for direct objects;the definite direct object marker ʾeṯ plus suffixes)."
-    :pdgmType :NA
-    :common {:morpheme :PROIND,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Independent}
     :terms [[:case :number :person :gender :token],
             [:Accusative :Singular :Person1 :Common " "],
@@ -1973,10 +1970,9 @@
     }
     {:label "hebrew-PLamedSuff"
     :note "Lambdin1971 p. 31;particle of existence or non-existence plus the lamed,often with pronominal suffixes,indicates possession."
-    :pdgmType :NA
-    :common {:morpheme :PROLAMEDSUFF,
-             :pos :Pronoun,
-             :proClass :lamedSuff}
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
+             :proClass :LamedSuff}
     :terms [[:numHead :number :person :gender :token],
             [:HeadPlural :Singular :Person1 :Common "-ay"],
             [:HeadPlural :Singular :Person2 :Masc " "],
@@ -2001,9 +1997,8 @@
     }
     {:label "hebrew-PObjClitic"
     :note "Lambdin1971 p. 260;Hebrew uses 3 object suffixes for the perfective and 2 suffixes for prefix forms (imperfective and jussive). * = the 2p forms are rare and were presumably –kem and –ken in each case. juss = Jussive/Short Forms (including imperative forms;imperative forms ending in a vowel drop the initial vowel -ē- in the following forms).The environments are as follows:env1 = suffix is post-consonantal and stressed (3ms and 2ms perfective forms);env2 = suffix is post-vocalic and unstressed (2fs,1cs,3cp,2m/fp,1cp perfective forms);env3 = suffix is post-consonantal and unstressed (3fs perfective forms);env4 = suffixes on Prefix Forms (the two paradigms are distributed as here as a tendency,but not as a rule)"
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:case :Object,
-             :morpheme :PROOBJCLITIC,
              :pos :Pronoun,
              :proClass :ObjClitic}
     :terms [[:tenseHead :number :person :gender :token :token-environment],
@@ -2061,9 +2056,7 @@
     {:label "hebrew-VSubjMarker"
     :note ""
     :pdgmType :SubjMarker
-    :common {:morpheme :SUBJMARKER,
-             :pos :Verb,
-             :morphClass :SubjMarker}
+    :common {:pos :Verb}
     :terms [[:tam :number :person :gender :token :token-pref :token-stem :token-suff],
             [:Imperfect :Singular :Person1 :Common "ʾV-⊤-Ø" "ʾV-" " " "Ø"],
             [:Jussive :Singular :Person1 :Common "ʾV-⊤-āh" "ʾV-" " " "-āh"],
