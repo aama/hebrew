@@ -4,8 +4,9 @@
 :sgpref "heb"
 :datasource "Lambdin1971"
 :geodemoURL "http://www.ethnologue.com/language/hbo"
-:geodemoTXT "Varieties and dialects of Biblical Hebrew were spoken in and around modern-day Israel during the first millennium BCE. It was gradually replaced as principal spoken language by varieties of Aramaic, but remained as a language of scholarship and religion until the modern period, when it was revived as the official language of the state of Israel. The bibliography is huge, but the Hebrew data used here for comparative purposes is simply taken from the pedagogical grammar of T. Lambdin."
- :schemata {:ablautClass [:AClass  :A_aClass :A_eClass :A_oClass :E_aClass :MidWeak],
+ :geodemoTXT "Varieties and dialects of Biblical Hebrew were spoken in and around modern-day Israel during the first millennium BCE. It was gradually replaced as principal spoken language by varieties of Aramaic, but remained as a language of scholarship and religion until the modern period, when it was revived as the official language of the state of Israel. The bibliography is huge, but the Hebrew data used here for comparative purposes is simply taken from the pedagogical grammar of T. Lambdin."
+ :schemata {:vmorphClass [:SubjMarker ],
+            :ablautClass [:AClass :A_aClass :A_eClass :A_oClass :E_aClass :MidWeak],
             :case [:Accusative :Dative :Nominative :Object],
             :deixis [:Far :Near],
             :derivedStem [:B :D :Du :N :S :St :Su],
@@ -14,11 +15,11 @@
             :number [:Plural :Singular],
             :person [:Person1 :Person2 :Person3],
             :pos [:Pronoun :Verb],
-            :proClass [:Demonstrative :Independent :ObjClitic :LamedSuff],
+            :proClass [:Demonstrative :Independent :LamedSuff :ObjClitic],
             :rootClass [:ACC :C1C2C2 :CCA :CCC :CCh :CCy :CwC :CyC :HCC :NCC :WCC :YCC],
             :tam [:Imperative :Imperfect :Jussive :Perfect],
             :tenseHead [:Imperfect :Jussive :Perfect]
-            :pdgmType [:Finite :SubjMarker :PRO]}
+            :pdgmType [:Finite :PRO :VOther]}
 :pclass {:pngClass [:person :number :gender :numHead],
           :synsemClass [:case :deixis :derivedStem :polarity :pos :proClass :tam :tenseHead],
           :inflClass [:ablautClass :rootClass],
@@ -2055,8 +2056,9 @@
     }
     {:label "hebrew-VSubjMarker"
     :note ""
-    :pdgmType :SubjMarker
-    :common {:pos :Verb}
+    :pdgmType :VOther
+    :common {:vmorphClass :SubjMarker
+             :pos :Verb}
     :terms [[:tam :number :person :gender :token :token-pref :token-stem :token-suff],
             [:Imperfect :Singular :Person1 :Common "ʾV-⊤-Ø" "ʾV-" " " "Ø"],
             [:Jussive :Singular :Person1 :Common "ʾV-⊤-āh" "ʾV-" " " "-āh"],
