@@ -48,7 +48,7 @@
  :termclusters [
                 {:label "hebrew-VC1C2C2BImperf-qll"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_oClass,
                           :derivedStem :B,
                           :lexeme :qll,
@@ -69,7 +69,7 @@
                  }
                 {:label "hebrew-VC1C2C2BImperf-sbb"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_oClass,
                           :derivedStem :B,
                           :lexeme :sbb,
@@ -90,7 +90,7 @@
                  }
                 {:label "hebrew-VC1C2C2BImprtv-qll"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_oClass,
                           :derivedStem :B,
                           :lexeme :qll,
@@ -106,7 +106,7 @@
                  }
                 {:label "hebrew-VC1C2C2BImprtv-sbb"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_oClass,
                           :derivedStem :B,
                           :lexeme :sbb,
@@ -122,7 +122,7 @@
                  }
                 {:label "hebrew-VC1C2C2BJuss-qll"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_oClass,
                           :derivedStem :B,
                           :lexeme :qll,
@@ -143,7 +143,7 @@
                  }
                 {:label "hebrew-VC1C2C2BJuss-sbb"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_oClass,
                           :derivedStem :B,
                           :lexeme :sbb,
@@ -164,7 +164,7 @@
                  }
                 {:label "hebrew-VC1C2C2BPerf-qll"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_oClass,
                           :derivedStem :B,
                           :lexeme :qll,
@@ -185,7 +185,7 @@
                  }
                 {:label "hebrew-VC1C2C2BPerf-sbb"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_oClass,
                           :derivedStem :B,
                           :lexeme :sbb,
@@ -206,7 +206,7 @@
                  }
                 {:label "hebrew-VCCBImperf-kl"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_aClass,
                           :derivedStem :B,
                           :lexeme :akl,
@@ -227,7 +227,7 @@
                  }
                 {:label "hebrew-VCCBImperf-ms"
                  :note "Lambdin1971. The quiesced aleph(non-phonological glottal stop) is indicated by parentheses. In Lambdins transliteration on p. 119 of Introduction to Biblical Hebrew he does not represent the aleph in transliteration at all."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_aClass,
                           :derivedStem :B,
                           :lexeme :msa,
@@ -248,7 +248,7 @@
                  }
                 {:label "hebrew-VCCBImprtv-kl"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_aClass,
                           :derivedStem :B,
                           :lexeme :akl,
@@ -264,7 +264,7 @@
                  }
                 {:label "hebrew-VCCBImprtv-ms"
                  :note "Lambdin1971. The quiesced aleph(non-phonological glottal stop) is indicated by parentheses. In Lambdins transliteration on p. 119 of Introduction to Biblical Hebrew he does not represent the aleph in transliteration at all."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_aClass,
                           :derivedStem :B,
                           :lexeme :msa,
@@ -280,7 +280,7 @@
                  }
                 {:label "hebrew-VCCBJuss-kl"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_aClass,
                           :derivedStem :B,
                           :lexeme :akl,
@@ -301,7 +301,7 @@
                  }
                 {:label "hebrew-VCCBJuss-ms"
                  :note "Lambdin1971. The quiesced aleph(non-phonological glottal stop) is indicated by parentheses. In Lambdins transliteration on p. 119 of Introduction to Biblical Hebrew he does not represent the aleph in transliteration at all."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_aClass,
                           :derivedStem :B,
                           :lexeme :msa,
@@ -322,7 +322,7 @@
                  }
                 {:label "hebrew-VCCBPerf-kl"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_aClass,
                           :derivedStem :B,
                           :lexeme :akl,
@@ -343,7 +343,7 @@
                  }
                 {:label "hebrew-VCCBPerf-ms"
                  :note "Lambdin1971. The quiesced aleph(non-phonological glottal stop) is indicated by parentheses. In Lambdins transliteration on p. 119 of Introduction to Biblical Hebrew he does not represent the aleph in transliteration at all."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_aClass,
                           :derivedStem :B,
                           :lexeme :msa,
@@ -364,7 +364,7 @@
                  }
                 {:label "hebrew-VCCCBImperf-bhr"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_aClass,
                           :derivedStem :B,
                           :lexeme :bhr,
@@ -385,7 +385,7 @@
                  }
                 {:label "hebrew-VCCCBImperf-kbd"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :E_aClass,
                           :derivedStem :B,
                           :lexeme :kbd,
@@ -406,7 +406,7 @@
                  }
                 {:label "hebrew-VCCCBImperf-ktb"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_oClass,
                           :derivedStem :B,
                           :lexeme :ktb,
@@ -427,7 +427,7 @@
                  }
                 {:label "hebrew-VCCCBImprtv-bhr"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_aClass,
                           :derivedStem :B,
                           :lexeme :bhr,
@@ -443,7 +443,7 @@
                  }
                 {:label "hebrew-VCCCBImprtv-kbd"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :E_aClass,
                           :derivedStem :B,
                           :lexeme :kbd,
@@ -459,7 +459,7 @@
                  }
                 {:label "hebrew-VCCCBImprtv-ktb"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_oClass,
                           :derivedStem :B,
                           :lexeme :ktb,
@@ -475,7 +475,7 @@
                  }
                 {:label "hebrew-VCCCBJuss-bhr"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_aClass,
                           :derivedStem :B,
                           :lexeme :bhr,
@@ -496,7 +496,7 @@
                  }
                 {:label "hebrew-VCCCBJuss-kbd"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :E_aClass,
                           :derivedStem :B,
                           :lexeme :kbd,
@@ -517,7 +517,7 @@
                  }
                 {:label "hebrew-VCCCBJuss-ktb"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_oClass,
                           :derivedStem :B,
                           :lexeme :ktb,
@@ -538,7 +538,7 @@
                  }
                 {:label "hebrew-VCCCBPerf-bhr"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_aClass,
                           :derivedStem :B,
                           :lexeme :bhr,
@@ -559,7 +559,7 @@
                  }
                 {:label "hebrew-VCCCBPerf-kbd"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :E_aClass,
                           :derivedStem :B,
                           :lexeme :kbd,
@@ -580,7 +580,7 @@
                  }
                 {:label "hebrew-VCCCBPerf-ktb"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_oClass,
                           :derivedStem :B,
                           :lexeme :ktb,
@@ -601,7 +601,7 @@
                  }
                 {:label "hebrew-VCCCDImperf-gdl"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :D,
                           :lexeme :gdl,
                           :pos :Verb,
@@ -621,7 +621,7 @@
                  }
                 {:label "hebrew-VCCCDImprtv-gdl"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :D,
                           :lexeme :gdl,
                           :person :Person2,
@@ -636,7 +636,7 @@
                  }
                 {:label "hebrew-VCCCDJuss-gdl"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :D,
                           :lexeme :gdl,
                           :pos :Verb,
@@ -656,7 +656,7 @@
                  }
                 {:label "hebrew-VCCCDPerf-gdl"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :D,
                           :lexeme :gdl,
                           :pos :Verb,
@@ -676,7 +676,7 @@
                  }
                 {:label "hebrew-VCCCDuImperf-gdl"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :Du,
                           :lexeme :gdl,
                           :pos :Verb,
@@ -696,7 +696,7 @@
                  }
                 {:label "hebrew-VCCCDuImprtv-gdl"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :Du,
                           :lexeme :gdl,
                           :person :Person2,
@@ -711,7 +711,7 @@
                  }
                 {:label "hebrew-VCCCDuJuss-gdl"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :Du,
                           :lexeme :gdl,
                           :pos :Verb,
@@ -731,7 +731,7 @@
                  }
                 {:label "hebrew-VCCCDuPerf-gdl"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :Du,
                           :lexeme :gdl,
                           :pos :Verb,
@@ -751,7 +751,7 @@
                  }
                 {:label "hebrew-VCCCNImperf-ktb"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :N,
                           :lexeme :ktb,
                           :pos :Verb,
@@ -771,7 +771,7 @@
                  }
                 {:label "hebrew-VCCCNImprtv-ktb"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :N,
                           :lexeme :ktb,
                           :person :Person2,
@@ -786,7 +786,7 @@
                  }
                 {:label "hebrew-VCCCNJuss-ktb"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :N,
                           :lexeme :ktb,
                           :pos :Verb,
@@ -806,7 +806,7 @@
                  }
                 {:label "hebrew-VCCCNPerf-ktb"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :N,
                           :lexeme :ktb,
                           :pos :Verb,
@@ -826,7 +826,7 @@
                  }
                 {:label "hebrew-VCCCSImperf-smd"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :S,
                           :lexeme :smd,
                           :pos :Verb,
@@ -846,7 +846,7 @@
                  }
                 {:label "hebrew-VCCCSImprtv-smd"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :S,
                           :lexeme :smd,
                           :person :Person2,
@@ -861,7 +861,7 @@
                  }
                 {:label "hebrew-VCCCSJuss-smd"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :S,
                           :lexeme :smd,
                           :pos :Verb,
@@ -881,7 +881,7 @@
                  }
                 {:label "hebrew-VCCCSPerf-smd"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :S,
                           :lexeme :smd,
                           :pos :Verb,
@@ -901,7 +901,7 @@
                  }
                 {:label "hebrew-VCCCStImperf-gdl"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :St,
                           :lexeme :gdl,
                           :pos :Verb,
@@ -921,7 +921,7 @@
                  }
                 {:label "hebrew-VCCCStImprtv-gdl"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :St,
                           :lexeme :gdl,
                           :person :Person2,
@@ -936,7 +936,7 @@
                  }
                 {:label "hebrew-VCCCStJuss-gdl"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :St,
                           :lexeme :gdl,
                           :pos :Verb,
@@ -956,7 +956,7 @@
                  }
                 {:label "hebrew-VCCCStPerf-gdl"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :St,
                           :lexeme :gdl,
                           :pos :Verb,
@@ -976,7 +976,7 @@
                  }
                 {:label "hebrew-VCCCSuImperf-smd"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :Su,
                           :lexeme :smd,
                           :pos :Verb,
@@ -996,7 +996,7 @@
                  }
                 {:label "hebrew-VCCCSuImprtv-smd"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :Su,
                           :lexeme :smd,
                           :person :Person2,
@@ -1011,7 +1011,7 @@
                  }
                 {:label "hebrew-VCCCSuJuss-smd"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :Su,
                           :lexeme :smd,
                           :pos :Verb,
@@ -1031,7 +1031,7 @@
                  }
                 {:label "hebrew-VCCCSuPerf-smd"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :Su,
                           :lexeme :smd,
                           :pos :Verb,
@@ -1051,7 +1051,7 @@
                  }
                 {:label "hebrew-VCChBImperf-slh"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_aClass,
                           :derivedStem :B,
                           :lexeme :slh,
@@ -1072,7 +1072,7 @@
                  }
                 {:label "hebrew-VCChBImprtv-slh"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_aClass,
                           :derivedStem :B,
                           :lexeme :slh,
@@ -1088,7 +1088,7 @@
                  }
                 {:label "hebrew-VCChBJuss-slh"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_aClass,
                           :derivedStem :B,
                           :lexeme :slh,
@@ -1109,7 +1109,7 @@
                  }
                 {:label "hebrew-VCChBPerf-slh"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_aClass,
                           :derivedStem :B,
                           :lexeme :slh,
@@ -1130,7 +1130,7 @@
                  }
                 {:label "hebrew-VCCyImperf-bny"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :bny,
                           :pos :Verb,
                           :rootClass :CCy,
@@ -1149,7 +1149,7 @@
                  }
                 {:label "hebrew-VCCyImprtv-bny"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :bny,
                           :person :Person2,
                           :pos :Verb,
@@ -1163,7 +1163,7 @@
                  }
                 {:label "hebrew-VCCyJuss-bny"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :bny,
                           :pos :Verb,
                           :rootClass :CCy,
@@ -1182,7 +1182,7 @@
                  }
                 {:label "hebrew-VCCyPerf-bny"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :bny,
                           :pos :Verb,
                           :rootClass :CCy,
@@ -1201,7 +1201,7 @@
                  }
                 {:label "hebrew-VCwCBImperf-qwm"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :MidWeak,
                           :derivedStem :B,
                           :lexeme :qwm,
@@ -1222,7 +1222,7 @@
                  }
                 {:label "hebrew-VCwCBImprtv-qwm"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :MidWeak,
                           :derivedStem :B,
                           :lexeme :qwm,
@@ -1238,7 +1238,7 @@
                  }
                 {:label "hebrew-VCwCBJuss-qwm"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :MidWeak,
                           :derivedStem :B,
                           :lexeme :qwm,
@@ -1259,7 +1259,7 @@
                  }
                 {:label "hebrew-VCwCBPerf-qwm"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :MidWeak,
                           :derivedStem :B,
                           :lexeme :qwm,
@@ -1280,7 +1280,7 @@
                  }
                 {:label "hebrew-VCyCBImperf-sym"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :MidWeak,
                           :derivedStem :B,
                           :lexeme :sym,
@@ -1301,7 +1301,7 @@
                  }
                 {:label "hebrew-VCyCBImprtv-sym"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :MidWeak,
                           :derivedStem :B,
                           :lexeme :sym,
@@ -1317,7 +1317,7 @@
                  }
                 {:label "hebrew-VCyCBJuss-sym"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :MidWeak,
                           :derivedStem :B,
                           :lexeme :sym,
@@ -1338,7 +1338,7 @@
                  }
                 {:label "hebrew-VCyCBPerf-sym"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :MidWeak,
                           :derivedStem :B,
                           :lexeme :sym,
@@ -1359,7 +1359,7 @@
                  }
                 {:label "hebrew-VHCCBImperf-hzq"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_aClass,
                           :derivedStem :B,
                           :lexeme :hzq,
@@ -1380,7 +1380,7 @@
                  }
                 {:label "hebrew-VHCCBImperf-md"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_oClass,
                           :derivedStem :B,
                           :lexeme :_md,
@@ -1401,7 +1401,7 @@
                  }
                 {:label "hebrew-VHCCBImprtv-hzq"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_aClass,
                           :derivedStem :B,
                           :lexeme :hzq,
@@ -1417,7 +1417,7 @@
                  }
                 {:label "hebrew-VHCCBImprtv-md"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_oClass,
                           :derivedStem :B,
                           :lexeme :_md,
@@ -1433,7 +1433,7 @@
                  }
                 {:label "hebrew-VHCCBJuss-hzq"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_aClass,
                           :derivedStem :B,
                           :lexeme :hzq,
@@ -1454,7 +1454,7 @@
                  }
                 {:label "hebrew-VHCCBJuss-md"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_oClass,
                           :derivedStem :B,
                           :lexeme :_md,
@@ -1475,7 +1475,7 @@
                  }
                 {:label "hebrew-VHCCBPerf-hzq"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_aClass,
                           :derivedStem :B,
                           :lexeme :hzq,
@@ -1496,7 +1496,7 @@
                  }
                 {:label "hebrew-VHCCBPerf-md"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_oClass,
                           :derivedStem :B,
                           :lexeme :_md,
@@ -1517,7 +1517,7 @@
                  }
                 {:label "hebrew-VNCCBImperf-ng_"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :AClass,
                           :derivedStem :B,
                           :lexeme :ng_,
@@ -1538,7 +1538,7 @@
                  }
                 {:label "hebrew-VNCCBImperf-npl"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_oClass,
                           :derivedStem :B,
                           :lexeme :npl,
@@ -1559,7 +1559,7 @@
                  }
                 {:label "hebrew-VNCCBImperf-ntn"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_eClass,
                           :derivedStem :B,
                           :lexeme :ntn,
@@ -1580,7 +1580,7 @@
                  }
                 {:label "hebrew-VNCCBImprtv-ng_"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :AClass,
                           :derivedStem :B,
                           :lexeme :ng_,
@@ -1596,7 +1596,7 @@
                  }
                 {:label "hebrew-VNCCBImprtv-npl"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_oClass,
                           :derivedStem :B,
                           :lexeme :npl,
@@ -1612,7 +1612,7 @@
                  }
                 {:label "hebrew-VNCCBImprtv-ntn"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_eClass,
                           :derivedStem :B,
                           :lexeme :ntn,
@@ -1628,7 +1628,7 @@
                  }
                 {:label "hebrew-VNCCBJuss-ng_"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :AClass,
                           :derivedStem :B,
                           :lexeme :ng_,
@@ -1649,7 +1649,7 @@
                  }
                 {:label "hebrew-VNCCBJuss-npl"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_oClass,
                           :derivedStem :B,
                           :lexeme :npl,
@@ -1670,7 +1670,7 @@
                  }
                 {:label "hebrew-VNCCBJuss-ntn"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_eClass,
                           :derivedStem :B,
                           :lexeme :ntn,
@@ -1691,7 +1691,7 @@
                  }
                 {:label "hebrew-VNCCBPerf-ng_"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :AClass,
                           :derivedStem :B,
                           :lexeme :ng_,
@@ -1712,7 +1712,7 @@
                  }
                 {:label "hebrew-VNCCBPerf-npl"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_oClass,
                           :derivedStem :B,
                           :lexeme :npl,
@@ -1733,7 +1733,7 @@
                  }
                 {:label "hebrew-VNCCBPerf-ntn"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_eClass,
                           :derivedStem :B,
                           :lexeme :ntn,
@@ -1754,7 +1754,7 @@
                  }
                 {:label "hebrew-VWCCBImperf-ysb"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_eClass,
                           :derivedStem :B,
                           :lexeme :ysb,
@@ -1775,7 +1775,7 @@
                  }
                 {:label "hebrew-VWCCBImprtv-ysb"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_eClass,
                           :derivedStem :B,
                           :lexeme :ysb,
@@ -1791,7 +1791,7 @@
                  }
                 {:label "hebrew-VWCCBJuss-ysb"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_eClass,
                           :derivedStem :B,
                           :lexeme :ysb,
@@ -1812,7 +1812,7 @@
                  }
                 {:label "hebrew-VWCCBPerf-ysb"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_eClass,
                           :derivedStem :B,
                           :lexeme :ysb,
@@ -1833,7 +1833,7 @@
                  }
                 {:label "hebrew-VYCCBImperf-ytb"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_aClass,
                           :derivedStem :B,
                           :lexeme :ytb,
@@ -1854,7 +1854,7 @@
                  }
                 {:label "hebrew-VYCCBImprtv-ytb"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_aClass,
                           :derivedStem :B,
                           :lexeme :ytb,
@@ -1870,7 +1870,7 @@
                  }
                 {:label "hebrew-VYCCBJuss-ytb"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_aClass,
                           :derivedStem :B,
                           :lexeme :ytb,
@@ -1891,7 +1891,7 @@
                  }
                 {:label "hebrew-VYCCBPerf-ytb"
                  :note "Lambdin1971"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :ablautClass :A_aClass,
                           :derivedStem :B,
                           :lexeme :ytb,
