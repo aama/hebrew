@@ -5,8 +5,7 @@
  :datasource "Lambdin1971"
  :geodemoURL "http://www.ethnologue.com/language/hbo"
  :geodemoTXT "Varieties and dialects of Biblical Hebrew were spoken in and around modern-day Israel during the first millennium BCE. It was gradually replaced as principal spoken language by varieties of Aramaic, but remained as a language of scholarship and religion until the modern period, when it was revived as the official language of the state of Israel. The bibliography is huge, but the Hebrew data used here for comparative purposes is simply taken from the pedagogical grammar of T. Lambdin."
- :schemata {:lexeme [:_md  :akl :bhr :bny :gdl :hzq :kbd :ktb :msa :ng_ :npl :ntn :qll :qwm :sbb :slh :smd :sym :ysb :ytb],
- :ablautClass [:AClass :A_aClass :A_eClass :A_oClass :E_aClass :MidWeak],
+ :schemata { :ablautClass [:AClass :A_aClass :A_eClass :A_oClass :E_aClass :MidWeak],
  :case [:Accusative :Dative :Nominative :Object],
  :deixis [:Far :Near],
  :derivedStem [:B :D :Du :N :S :St :Su],
@@ -26,27 +25,29 @@
           :synsemClass [:case :deixis :derivedStem :polarity :pos :proClass :tam :tenseHead],
           :inflClass [:ablautClass :rootClass],
           :otherClass []}
- :lexemes{:bny {:lemma "bny", :gloss "build", :pos :Verb, :rootClass :CCy},
-          :gdl {:lemma "gdl", :gloss "be big", :pos :Verb, :rootClass :CCC},
-          :slh {:lemma "šlḥ", :gloss "send", :pos :Verb, :rootClass :CCh},
-          :ng_ {:lemma "ngʕ", :gloss "touch", :pos :Verb, :rootClass :NCC},
-          :msa {:lemma "mṣʔ", :gloss "come", :pos :Verb, :rootClass :CCA},
-          :sym {:lemma "śym", :gloss "put", :pos :Verb, :rootClass :CyC},
-          :_md {:lemma "ʕmd", :gloss "stand", :pos :Verb, :rootClass :HCC},
-          :ysb {:lemma "yšb", :gloss "sit", :pos :Verb, :rootClass :WCC},
-          :qll {:lemma "qll", :gloss "be diminished", :pos :Verb, :rootClass :C1C2C2},
-          :bhr {:lemma "bḥr", :gloss "choose", :pos :Verb, :rootClass :ChC},
-          :npl {:lemma "npl", :gloss "fall", :pos :Verb, :rootClass :NCC},
-          :kbd {:lemma "kbd", :gloss "honor", :rootClass :CCC, :ablautClass :E_aClass},
-          :akl {:lemma "ʔkl", :gloss "eat", :pos :Verb, :rootClass :ACC},
-          :ntn {:lemma "ntn", :gloss "give", :pos :Verb, :rootClass :NCC},
-          :qwm {:lemma "qwm", :gloss "stand", :pos :Verb, :rootClass :CwC},
-          :hzq {:lemma "ḥzq", :gloss "be strong", :pos :Verb, :rootClass :HCC},
-          :mn {:lemma "mʔn", :gloss "refuse", :pos :Verb, :rootClass :CAC},
-          :smd {:lemma "šmd", :gloss "exterminate", :pos :Verb, :rootClass :CCC},
-          :ytb {:lemma "yṭb", :gloss "be good", :pos :Verb, :rootClass :YCC},
-          :sbb {:lemma "sbb", :gloss "go around", :pos :Verb, :rootClass :C1C2C2},
-          :ktb {:lemma "ktb", :gloss "write", :ablautClass :A_oClass, :pos :Verb, :rootClass :CCC}}
+ :lexemes {
+:_md   {:pos :Verb, :lemma "ʕmd", :gloss "stand", :rootClass :HCC},
+:akl   {:pos :Verb, :lemma "ʔkl", :gloss "eat", :rootClass :ACC},
+:bhr   {:pos :Verb, :lemma "bḥr", :gloss "choose", :rootClass :ChC},
+:bny   {:pos :Verb, :lemma "bny", :gloss "build", :rootClass :CCy},
+:gdl   {:pos :Verb, :lemma "gdl", :gloss "be big", :rootClass :CCC},
+:hzq   {:pos :Verb, :lemma "ḥzq", :gloss "be strong", :rootClass :HCC},
+:kbd   {:pos :Verb, :lemma "kbd", :gloss "honor", :rootClass :CCC, :ablautClass :E_aClass},
+:ktb   {:pos :Verb, :lemma "ktb", :gloss "write", :ablautClass :A_oClass, :rootClass :CCC},
+:mn   {:pos :Verb, :lemma "mʔn", :gloss "refuse", :rootClass :CAC},
+:msa   {:pos :Verb, :lemma "mṣʔ", :gloss "come", :rootClass :CCA},
+:ng_   {:pos :Verb, :lemma "ngʕ", :gloss "touch", :rootClass :NCC},
+:npl   {:pos :Verb, :lemma "npl", :gloss "fall", :rootClass :NCC},
+:ntn   {:pos :Verb, :lemma "ntn", :gloss "give", :rootClass :NCC},
+:qll   {:pos :Verb, :lemma "qll", :gloss "be diminished", :rootClass :C1C2C2},
+:qwm   {:pos :Verb, :lemma "qwm", :gloss "stand", :rootClass :CwC},
+:sbb   {:pos :Verb, :lemma "sbb", :gloss "go around", :rootClass :C1C2C2},
+:slh   {:pos :Verb, :lemma "šlḥ", :gloss "send", :rootClass :CCh},
+:smd   {:pos :Verb, :lemma "šmd", :gloss "exterminate", :rootClass :CCC},
+:sym   {:pos :Verb, :lemma "śym", :gloss "put", :rootClass :CyC},
+:ysb   {:pos :Verb, :lemma "yšb", :gloss "sit", :rootClass :WCC},
+:ytb   {:pos :Verb, :lemma "yṭb", :gloss "be good", :rootClass :YCC},
+}
  :termclusters [
                 {:label "hebrew-VC1C2C2BImperf-qll"
                  :note "Lambdin1971"
