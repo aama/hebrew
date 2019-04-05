@@ -2,55 +2,55 @@
  :lang :hebrew
  :subfamily "Semitic Northwest Canaanite"
  :sgpref "heb"
- :datasource "Lambdin1971"
+ :datasource "Lambdin1971; abbrev. L71"
  :geodemoURL "http://www.ethnologue.com/language/hbo"
  :geodemoTXT "Varieties and dialects of Biblical Hebrew were spoken in and around modern-day Israel during the first millennium BCE. It was gradually replaced as principal spoken language by varieties of Aramaic, but remained as a language of scholarship and religion until the modern period, when it was revived as the official language of the state of Israel. The bibliography is huge, but the Hebrew data used here for comparative purposes is simply taken from the pedagogical grammar of T. Lambdin."
  :schemata { :ablautClass [:AClass :A_aClass :A_eClass :A_oClass :E_aClass :MidWeak],
- :case [:Accusative :Dative :Nominative :Object],
- :deixis [:Far :Near],
- :derivedStem [:B :D :Du :N :S :St :Su],
- :gender [:Common :Fem :Masc],
- :numHead [:HeadPlural :HeadSingular],
- :number [:Plural :Singular],
- :person [:Person1 :Person2 :Person3],
- :pmorphClass [:ProMorph],
- :pos [:Pronoun :Verb],
- :proClass [:Demonstrative :Independent :ObjClitic :lamedSuff],
- :rootClass [:ACC :C1C2C2 :CCA :CCC :CCh :CCy :CwC :CyC :HCC :NCC :WCC :YCC],
- :tam [:Imperative :Imperfect :Jussive :Perfect],
- :tenseHead [:Imperfect :Jussive :Perfect],
- :vmorphClass [:SubjMarker :Finite]
- }
+            :case [:Accusative :Dative :Nominative :Object],
+            :deixis [:Far :Near],
+            :derivedStem [:B :D :Du :N :S :St :Su],
+            :gender [:Common :Fem :Masc],
+            :numHead [:HeadPlural :HeadSingular],
+            :number [:Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :pmorphClass [:ProMorph],
+            :pos [:Pronoun :Verb],
+            :proClass [:Demonstrative :Independent :ObjClitic :lamedSuff],
+            :rootClass [:ACC :C1C2C2 :CCA :CCC :CCh :CCy :CwC :CyC :HCC :NCC :WCC :YCC],
+            :tam [:Imperative :Imperfect :Jussive :Perfect],
+            :tenseHead [:Imperfect :Jussive :Perfect],
+            :vmorphClass [:SubjMarker :Finite]
+            }
  :pclass {:pngClass [:person :number :gender :numHead],
           :synsemClass [:case :deixis :derivedStem :polarity :pos :proClass :tam :tenseHead],
           :inflClass [:ablautClass :rootClass],
           :otherClass []}
  :lexemes {
-:_md   {:pos :Verb, :lemma "ʕmd", :gloss "stand", :rootClass :HCC},
-:akl   {:pos :Verb, :lemma "ʔkl", :gloss "eat", :rootClass :ACC},
-:bhr   {:pos :Verb, :lemma "bḥr", :gloss "choose", :rootClass :ChC},
-:bny   {:pos :Verb, :lemma "bny", :gloss "build", :rootClass :CCy},
-:gdl   {:pos :Verb, :lemma "gdl", :gloss "be big", :rootClass :CCC},
-:hzq   {:pos :Verb, :lemma "ḥzq", :gloss "be strong", :rootClass :HCC},
-:kbd   {:pos :Verb, :lemma "kbd", :gloss "honor", :rootClass :CCC, :ablautClass :E_aClass},
-:ktb   {:pos :Verb, :lemma "ktb", :gloss "write", :ablautClass :A_oClass, :rootClass :CCC},
-:mn   {:pos :Verb, :lemma "mʔn", :gloss "refuse", :rootClass :CAC},
-:msa   {:pos :Verb, :lemma "mṣʔ", :gloss "come", :rootClass :CCA},
-:ng_   {:pos :Verb, :lemma "ngʕ", :gloss "touch", :rootClass :NCC},
-:npl   {:pos :Verb, :lemma "npl", :gloss "fall", :rootClass :NCC},
-:ntn   {:pos :Verb, :lemma "ntn", :gloss "give", :rootClass :NCC},
-:qll   {:pos :Verb, :lemma "qll", :gloss "be diminished", :rootClass :C1C2C2},
-:qwm   {:pos :Verb, :lemma "qwm", :gloss "stand", :rootClass :CwC},
-:sbb   {:pos :Verb, :lemma "sbb", :gloss "go around", :rootClass :C1C2C2},
-:slh   {:pos :Verb, :lemma "šlḥ", :gloss "send", :rootClass :CCh},
-:smd   {:pos :Verb, :lemma "šmd", :gloss "exterminate", :rootClass :CCC},
-:sym   {:pos :Verb, :lemma "śym", :gloss "put", :rootClass :CyC},
-:ysb   {:pos :Verb, :lemma "yšb", :gloss "sit", :rootClass :WCC},
-:ytb   {:pos :Verb, :lemma "yṭb", :gloss "be good", :rootClass :YCC},
-}
+           :_md   {:pos :Verb, :lemma "ʕmd", :gloss "stand", :rootClass :HCC},
+           :akl   {:pos :Verb, :lemma "ʔkl", :gloss "eat", :rootClass :ACC},
+           :bhr   {:pos :Verb, :lemma "bḥr", :gloss "choose", :rootClass :ChC},
+           :bny   {:pos :Verb, :lemma "bny", :gloss "build", :rootClass :CCy},
+           :gdl   {:pos :Verb, :lemma "gdl", :gloss "be big", :rootClass :CCC},
+           :hzq   {:pos :Verb, :lemma "ḥzq", :gloss "be strong", :rootClass :HCC},
+           :kbd   {:pos :Verb, :lemma "kbd", :gloss "honor", :rootClass :CCC, :ablautClass :E_aClass},
+           :ktb   {:pos :Verb, :lemma "ktb", :gloss "write", :ablautClass :A_oClass, :rootClass :CCC},
+           :mn   {:pos :Verb, :lemma "mʔn", :gloss "refuse", :rootClass :CAC},
+           :msa   {:pos :Verb, :lemma "mṣʔ", :gloss "come", :rootClass :CCA},
+           :ng_   {:pos :Verb, :lemma "ngʕ", :gloss "touch", :rootClass :NCC},
+           :npl   {:pos :Verb, :lemma "npl", :gloss "fall", :rootClass :NCC},
+           :ntn   {:pos :Verb, :lemma "ntn", :gloss "give", :rootClass :NCC},
+           :qll   {:pos :Verb, :lemma "qll", :gloss "be diminished", :rootClass :C1C2C2},
+           :qwm   {:pos :Verb, :lemma "qwm", :gloss "stand", :rootClass :CwC},
+           :sbb   {:pos :Verb, :lemma "sbb", :gloss "go around", :rootClass :C1C2C2},
+           :slh   {:pos :Verb, :lemma "šlḥ", :gloss "send", :rootClass :CCh},
+           :smd   {:pos :Verb, :lemma "šmd", :gloss "exterminate", :rootClass :CCC},
+           :sym   {:pos :Verb, :lemma "śym", :gloss "put", :rootClass :CyC},
+           :ysb   {:pos :Verb, :lemma "yšb", :gloss "sit", :rootClass :WCC},
+           :ytb   {:pos :Verb, :lemma "yṭb", :gloss "be good", :rootClass :YCC},
+           }
  :termclusters [
                 {:label "hebrew-VC1C2C2BImperf-qll"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_oClass,
                           :derivedStem :B,
@@ -71,7 +71,7 @@
                          [:Plural :Person3 :Fem "tǝ-qall-ệnāh" "tǝ-" "qall" "-ệnāh"]]
                  }
                 {:label "hebrew-VC1C2C2BImperf-sbb"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_oClass,
                           :derivedStem :B,
@@ -92,7 +92,7 @@
                          [:Plural :Person3 :Fem "tǝ-subb-ệnāh" "tǝ-" "subb" "-ệnāh"]]
                  }
                 {:label "hebrew-VC1C2C2BImprtv-qll"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_oClass,
                           :derivedStem :B,
@@ -108,7 +108,7 @@
                          [:Plural :Fem "qal-nāh" " " "qal" "-nāh"]]
                  }
                 {:label "hebrew-VC1C2C2BImprtv-sbb"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_oClass,
                           :derivedStem :B,
@@ -124,7 +124,7 @@
                          [:Plural :Fem "sōḇ/subb-nāh/ -ệnāh" " " "sōḇ/subb" "-nāh/ -ệnāh"]]
                  }
                 {:label "hebrew-VC1C2C2BJuss-qll"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_oClass,
                           :derivedStem :B,
@@ -145,7 +145,7 @@
                          [:Plural :Person3 :Fem "tǝ-qall-ệnāh" "tǝ-" "qall" "-ệnāh"]]
                  }
                 {:label "hebrew-VC1C2C2BJuss-sbb"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_oClass,
                           :derivedStem :B,
@@ -166,7 +166,7 @@
                          [:Plural :Person3 :Fem "tǝ-subb-ệnāh" "tǝ-" "subb" "-ệnāh"]]
                  }
                 {:label "hebrew-VC1C2C2BPerf-qll"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_oClass,
                           :derivedStem :B,
@@ -187,7 +187,7 @@
                          [:Plural :Person3 :Fem "qall-û" " " "qall" "-û"]]
                  }
                 {:label "hebrew-VC1C2C2BPerf-sbb"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_oClass,
                           :derivedStem :B,
@@ -208,7 +208,7 @@
                          [:Plural :Person3 :Fem "sāḇăḇ-û" " " "sāḇăḇ" "-û"]]
                  }
                 {:label "hebrew-VCCBImperf-kl"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_aClass,
                           :derivedStem :B,
@@ -229,7 +229,7 @@
                          [:Plural :Person3 :Fem "tō-(ʾ)ḵal-nāh" "tō-" "(ʾ)ḵal" "-nāh"]]
                  }
                 {:label "hebrew-VCCBImperf-ms"
-                 :note "Lambdin1971. The quiesced aleph(non-phonological glottal stop) is indicated by parentheses. In Lambdins transliteration on p. 119 of Introduction to Biblical Hebrew he does not represent the aleph in transliteration at all."
+                 :note "L71p. :: The quiesced aleph(non-phonological glottal stop) is indicated by parentheses. In Lambdins transliteration onp.119 of Introduction to Biblical Hebrew he does not represent the aleph in transliteration at all."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_aClass,
                           :derivedStem :B,
@@ -250,7 +250,7 @@
                          [:Plural :Person3 :Fem "ti-mṣệ(ʾ)-nāh" "ti-" "mṣệ(ʾ)" "-nāh"]]
                  }
                 {:label "hebrew-VCCBImprtv-kl"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_aClass,
                           :derivedStem :B,
@@ -266,7 +266,7 @@
                          [:Plural :Fem "ʾĕḵōl-nāh" " " "ʾĕḵōl" "-nāh"]]
                  }
                 {:label "hebrew-VCCBImprtv-ms"
-                 :note "Lambdin1971. The quiesced aleph(non-phonological glottal stop) is indicated by parentheses. In Lambdins transliteration on p. 119 of Introduction to Biblical Hebrew he does not represent the aleph in transliteration at all."
+                 :note "L71p. :: The quiesced aleph(non-phonological glottal stop) is indicated by parentheses. In Lambdins transliteration onp.119 of Introduction to Biblical Hebrew he does not represent the aleph in transliteration at all."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_aClass,
                           :derivedStem :B,
@@ -282,7 +282,7 @@
                          [:Plural :Fem "mǝṣệ(ʾ)-nāh" " " "mǝṣệ(ʾ)" "-nāh"]]
                  }
                 {:label "hebrew-VCCBJuss-kl"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_aClass,
                           :derivedStem :B,
@@ -303,7 +303,7 @@
                          [:Plural :Person3 :Fem "tō-(ʾ)ḵal-nāh" "tō-" "(ʾ)ḵal" "-nāh"]]
                  }
                 {:label "hebrew-VCCBJuss-ms"
-                 :note "Lambdin1971. The quiesced aleph(non-phonological glottal stop) is indicated by parentheses. In Lambdins transliteration on p. 119 of Introduction to Biblical Hebrew he does not represent the aleph in transliteration at all."
+                 :note "L71p. :: The quiesced aleph(non-phonological glottal stop) is indicated by parentheses. In Lambdins transliteration onp.119 of Introduction to Biblical Hebrew he does not represent the aleph in transliteration at all."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_aClass,
                           :derivedStem :B,
@@ -324,7 +324,7 @@
                          [:Plural :Person3 :Fem "ti-mṣệ(ʾ)-nāh" "ti-" "mṣệ(ʾ)" "-nāh"]]
                  }
                 {:label "hebrew-VCCBPerf-kl"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_aClass,
                           :derivedStem :B,
@@ -345,7 +345,7 @@
                          [:Plural :Person3 :Fem "ʾāḵǝl-û" " " "ʾāḵǝl" "-û"]]
                  }
                 {:label "hebrew-VCCBPerf-ms"
-                 :note "Lambdin1971. The quiesced aleph(non-phonological glottal stop) is indicated by parentheses. In Lambdins transliteration on p. 119 of Introduction to Biblical Hebrew he does not represent the aleph in transliteration at all."
+                 :note "L71p. :: The quiesced aleph(non-phonological glottal stop) is indicated by parentheses. In Lambdins transliteration onp.119 of Introduction to Biblical Hebrew he does not represent the aleph in transliteration at all."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_aClass,
                           :derivedStem :B,
@@ -366,7 +366,7 @@
                          [:Plural :Person3 :Fem "māṣǝʾ-û" " " "māṣǝʾ" "-û"]]
                  }
                 {:label "hebrew-VCCCBImperf-bhr"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_aClass,
                           :derivedStem :B,
@@ -387,7 +387,7 @@
                          [:Plural :Person3 :Fem "ti-ḇḥar-nāh" "ti-" "ḇḥar" "-nāh"]]
                  }
                 {:label "hebrew-VCCCBImperf-kbd"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :E_aClass,
                           :derivedStem :B,
@@ -408,7 +408,7 @@
                          [:Plural :Person3 :Fem "ti-ḵbaḏ-nāh" "ti-" "ḵbaḏ" "-nāh"]]
                  }
                 {:label "hebrew-VCCCBImperf-ktb"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_oClass,
                           :derivedStem :B,
@@ -429,7 +429,7 @@
                          [:Plural :Person3 :Fem "ti-ḵtōḇ-nāh" "ti-" "ḵtōḇ" "-nāh"]]
                  }
                 {:label "hebrew-VCCCBImprtv-bhr"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_aClass,
                           :derivedStem :B,
@@ -445,7 +445,7 @@
                          [:Plural :Fem "bǝḥar-nāh" " " "bǝḥar" "-nāh"]]
                  }
                 {:label "hebrew-VCCCBImprtv-kbd"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :E_aClass,
                           :derivedStem :B,
@@ -461,7 +461,7 @@
                          [:Plural :Fem "kǝḇaḏ-nāh" " " "kǝḇaḏ" "-nāh"]]
                  }
                 {:label "hebrew-VCCCBImprtv-ktb"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_oClass,
                           :derivedStem :B,
@@ -477,7 +477,7 @@
                          [:Plural :Fem "kǝṯōḇ-nāh" " " "kǝṯōḇ" "-nāh"]]
                  }
                 {:label "hebrew-VCCCBJuss-bhr"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_aClass,
                           :derivedStem :B,
@@ -498,7 +498,7 @@
                          [:Plural :Person3 :Fem "ti-ḇḥar-nāh" "ti-" "ḇḥar" "-nāh"]]
                  }
                 {:label "hebrew-VCCCBJuss-kbd"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :E_aClass,
                           :derivedStem :B,
@@ -519,7 +519,7 @@
                          [:Plural :Person3 :Fem "ti-ḵbaḏ-nāh" "ti-" "ḵbaḏ" "-nāh"]]
                  }
                 {:label "hebrew-VCCCBJuss-ktb"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_oClass,
                           :derivedStem :B,
@@ -540,7 +540,7 @@
                          [:Plural :Person3 :Fem "ti-ḵtōḇ-nāh" "ti-" "ḵtōḇ" "-nāh"]]
                  }
                 {:label "hebrew-VCCCBPerf-bhr"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_aClass,
                           :derivedStem :B,
@@ -561,7 +561,7 @@
                          [:Plural :Person3 :Fem "bāḥǝr-û" " " "bāḥǝr" "-û"]]
                  }
                 {:label "hebrew-VCCCBPerf-kbd"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :E_aClass,
                           :derivedStem :B,
@@ -582,7 +582,7 @@
                          [:Plural :Person3 :Fem "kāḇǝḏ-û" " " "kāḇǝḏ" "-û"]]
                  }
                 {:label "hebrew-VCCCBPerf-ktb"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_oClass,
                           :derivedStem :B,
@@ -603,7 +603,7 @@
                          [:Plural :Person3 :Fem "kāṯǝḇ-û" " " "kāṯǝḇ" "-û"]]
                  }
                 {:label "hebrew-VCCCDImperf-gdl"
-                 :note ""
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :derivedStem :D,
                           :lexeme :gdl,
@@ -623,7 +623,7 @@
                          [:Plural :Person3 :Fem "tǝ-gaddēl-nāh" "tǝ-" "gaddēl" "-nāh"]]
                  }
                 {:label "hebrew-VCCCDImprtv-gdl"
-                 :note ""
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :derivedStem :D,
                           :lexeme :gdl,
@@ -638,7 +638,7 @@
                          [:Plural :Fem "gaddēl-nāh" " " "gaddēl" "-nāh"]]
                  }
                 {:label "hebrew-VCCCDJuss-gdl"
-                 :note ""
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :derivedStem :D,
                           :lexeme :gdl,
@@ -658,7 +658,7 @@
                          [:Plural :Person3 :Fem "tǝ-gaddēl-nāh" "tǝ-" "gaddēl" "-nāh"]]
                  }
                 {:label "hebrew-VCCCDPerf-gdl"
-                 :note ""
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :derivedStem :D,
                           :lexeme :gdl,
@@ -678,7 +678,7 @@
                          [:Plural :Person3 :Fem "giddǝl-û" " " "giddǝl" "-û"]]
                  }
                 {:label "hebrew-VCCCDuImperf-gdl"
-                 :note ""
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :derivedStem :Du,
                           :lexeme :gdl,
@@ -698,7 +698,7 @@
                          [:Plural :Person3 :Fem "tǝ-ḡuddal-nāh" "tǝ-" "ḡuddal" "-nāh"]]
                  }
                 {:label "hebrew-VCCCDuImprtv-gdl"
-                 :note ""
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :derivedStem :Du,
                           :lexeme :gdl,
@@ -713,7 +713,7 @@
                          [:Plural :Fem "guddal-nāh" " " "guddal" "-nāh"]]
                  }
                 {:label "hebrew-VCCCDuJuss-gdl"
-                 :note ""
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :derivedStem :Du,
                           :lexeme :gdl,
@@ -733,7 +733,7 @@
                          [:Plural :Person3 :Fem "tǝ-ḡuddal-nāh" "tǝ-" "ḡuddal" "-nāh"]]
                  }
                 {:label "hebrew-VCCCDuPerf-gdl"
-                 :note ""
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :derivedStem :Du,
                           :lexeme :gdl,
@@ -753,7 +753,7 @@
                          [:Plural :Person3 :Fem "guddǝl-û" " " "guddǝl" "-û"]]
                  }
                 {:label "hebrew-VCCCNImperf-ktb"
-                 :note ""
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :derivedStem :N,
                           :lexeme :ktb,
@@ -773,7 +773,7 @@
                          [:Plural :Person3 :Fem "ti-kkāṯaḇ-nāh" "ti-" "kkāṯaḇ" "-nāh"]]
                  }
                 {:label "hebrew-VCCCNImprtv-ktb"
-                 :note ""
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :derivedStem :N,
                           :lexeme :ktb,
@@ -788,7 +788,7 @@
                          [:Plural :Fem "hikkāṯaḇ-nāh" " " "hikkāṯaḇ" "-nāh"]]
                  }
                 {:label "hebrew-VCCCNJuss-ktb"
-                 :note ""
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :derivedStem :N,
                           :lexeme :ktb,
@@ -808,7 +808,7 @@
                          [:Plural :Person3 :Fem "ti-kkāṯaḇ-nāh" "ti-" "kkāṯaḇ" "-nāh"]]
                  }
                 {:label "hebrew-VCCCNPerf-ktb"
-                 :note ""
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :derivedStem :N,
                           :lexeme :ktb,
@@ -828,7 +828,7 @@
                          [:Plural :Person3 :Fem "niḵtǝḇ-û" " " "niḵtǝḇ" "-û"]]
                  }
                 {:label "hebrew-VCCCSImperf-smd"
-                 :note ""
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :derivedStem :S,
                           :lexeme :smd,
@@ -848,7 +848,7 @@
                          [:Plural :Person3 :Fem "ta-šmēḏ-nāh" "ta-" "šmēḏ" "-nāh"]]
                  }
                 {:label "hebrew-VCCCSImprtv-smd"
-                 :note ""
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :derivedStem :S,
                           :lexeme :smd,
@@ -863,7 +863,7 @@
                          [:Plural :Fem "hašmēḏ-nāh" " " "hašmēḏ" "-nāh"]]
                  }
                 {:label "hebrew-VCCCSJuss-smd"
-                 :note ""
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :derivedStem :S,
                           :lexeme :smd,
@@ -883,7 +883,7 @@
                          [:Plural :Person3 :Fem "ta-šmēḏ-nāh" "ta-" "šmēḏ" "-nāh"]]
                  }
                 {:label "hebrew-VCCCSPerf-smd"
-                 :note ""
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :derivedStem :S,
                           :lexeme :smd,
@@ -903,7 +903,7 @@
                          [:Plural :Person3 :Fem "hišmîḏ-û" " " "hišmîḏ" "-û"]]
                  }
                 {:label "hebrew-VCCCStImperf-gdl"
-                 :note ""
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :derivedStem :St,
                           :lexeme :gdl,
@@ -923,7 +923,7 @@
                          [:Plural :Person3 :Fem "ti-ṯgaddēl-nāh" "ti-" "ṯgaddēl" "-nāh"]]
                  }
                 {:label "hebrew-VCCCStImprtv-gdl"
-                 :note ""
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :derivedStem :St,
                           :lexeme :gdl,
@@ -938,7 +938,7 @@
                          [:Plural :Fem "hiṯgaddēl-nāh" " " "hiṯgaddēl" "-nāh"]]
                  }
                 {:label "hebrew-VCCCStJuss-gdl"
-                 :note ""
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :derivedStem :St,
                           :lexeme :gdl,
@@ -958,7 +958,7 @@
                          [:Plural :Person3 :Fem "ti-ṯgaddēl-nāh" "ti-" "ṯgaddēl" "-nāh"]]
                  }
                 {:label "hebrew-VCCCStPerf-gdl"
-                 :note ""
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :derivedStem :St,
                           :lexeme :gdl,
@@ -978,7 +978,7 @@
                          [:Plural :Person3 :Fem "hiṯgaddǝl-û" " " "hiṯgaddǝl" "-û"]]
                  }
                 {:label "hebrew-VCCCSuImperf-smd"
-                 :note ""
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :derivedStem :Su,
                           :lexeme :smd,
@@ -998,7 +998,7 @@
                          [:Plural :Person3 :Fem "to-šmaḏ-nāh" "to-" "šmaḏ" "-nāh"]]
                  }
                 {:label "hebrew-VCCCSuImprtv-smd"
-                 :note ""
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :derivedStem :Su,
                           :lexeme :smd,
@@ -1013,7 +1013,7 @@
                          [:Plural :Fem "hošmaḏ-nāh" " " "hošmaḏ" "-nāh"]]
                  }
                 {:label "hebrew-VCCCSuJuss-smd"
-                 :note ""
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :derivedStem :Su,
                           :lexeme :smd,
@@ -1033,7 +1033,7 @@
                          [:Plural :Person3 :Fem "to-šmaḏ-nāh" "to-" "šmaḏ" "-nāh"]]
                  }
                 {:label "hebrew-VCCCSuPerf-smd"
-                 :note ""
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :derivedStem :Su,
                           :lexeme :smd,
@@ -1053,7 +1053,7 @@
                          [:Plural :Person3 :Fem "hošmǝḏ-û" " " "hošmǝḏ" "-û"]]
                  }
                 {:label "hebrew-VCChBImperf-slh"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_aClass,
                           :derivedStem :B,
@@ -1074,7 +1074,7 @@
                          [:Plural :Person3 :Fem "ti-šlaḥ-nāh" "ti-" "šlaḥ" "-nāh"]]
                  }
                 {:label "hebrew-VCChBImprtv-slh"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_aClass,
                           :derivedStem :B,
@@ -1090,7 +1090,7 @@
                          [:Plural :Fem "šǝlaḥ-nāh" " " "šǝlaḥ" "-nāh"]]
                  }
                 {:label "hebrew-VCChBJuss-slh"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_aClass,
                           :derivedStem :B,
@@ -1111,7 +1111,7 @@
                          [:Plural :Person3 :Fem "ti-šlaḥ-nāh" "ti-" "šlaḥ" "-nāh"]]
                  }
                 {:label "hebrew-VCChBPerf-slh"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_aClass,
                           :derivedStem :B,
@@ -1132,7 +1132,7 @@
                          [:Plural :Person3 :Fem "šālǝḥ-û" " " "šālǝḥ" "-û"]]
                  }
                 {:label "hebrew-VCCyImperf-bny"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :lexeme :bny,
                           :pos :Verb,
@@ -1151,7 +1151,7 @@
                          [:Plural :Person3 :Fem "ti-ḇn-ệnāh" "ti-" "ḇn" "-ệnāh"]]
                  }
                 {:label "hebrew-VCCyImprtv-bny"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :lexeme :bny,
                           :person :Person2,
@@ -1165,7 +1165,7 @@
                          [:Plural :Fem "bǝn-ệnāh" " " "bǝn" "-ệnāh"]]
                  }
                 {:label "hebrew-VCCyJuss-bny"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :lexeme :bny,
                           :pos :Verb,
@@ -1184,7 +1184,7 @@
                          [:Plural :Person3 :Fem "ti-ḇn-ệnāh" "ti-" "ḇn" "-ệnāh"]]
                  }
                 {:label "hebrew-VCCyPerf-bny"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :lexeme :bny,
                           :pos :Verb,
@@ -1203,7 +1203,7 @@
                          [:Plural :Person3 :Fem "bān-û" " " "bān" "-û"]]
                  }
                 {:label "hebrew-VCwCBImperf-qwm"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :MidWeak,
                           :derivedStem :B,
@@ -1224,7 +1224,7 @@
                          [:Plural :Person3 :Fem "tǝ-qûm-ệnāh" "tǝ-" "qûm" "-ệnāh"]]
                  }
                 {:label "hebrew-VCwCBImprtv-qwm"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :MidWeak,
                           :derivedStem :B,
@@ -1240,7 +1240,7 @@
                          [:Plural :Fem "qōm-nāh" " " "qōm" "-nāh"]]
                  }
                 {:label "hebrew-VCwCBJuss-qwm"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :MidWeak,
                           :derivedStem :B,
@@ -1261,7 +1261,7 @@
                          [:Plural :Person3 :Fem "tā-qǝm-ệnāh" "tā-" "qǝm" "-ệnāh"]]
                  }
                 {:label "hebrew-VCwCBPerf-qwm"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :MidWeak,
                           :derivedStem :B,
@@ -1282,7 +1282,7 @@
                          [:Plural :Person3 :Fem "qām-û" " " "qām" "-û"]]
                  }
                 {:label "hebrew-VCyCBImperf-sym"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :MidWeak,
                           :derivedStem :B,
@@ -1303,7 +1303,7 @@
                          [:Plural :Person3 :Fem "tǝ-śîm-ệnāh" "tǝ-" "śîm" "-ệnāh"]]
                  }
                 {:label "hebrew-VCyCBImprtv-sym"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :MidWeak,
                           :derivedStem :B,
@@ -1319,7 +1319,7 @@
                          [:Plural :Fem "śēm-nāh" " " "śēm" "-nāh"]]
                  }
                 {:label "hebrew-VCyCBJuss-sym"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :MidWeak,
                           :derivedStem :B,
@@ -1340,7 +1340,7 @@
                          [:Plural :Person3 :Fem "tā-śǝm-ệnāh" "tā-" "śǝm" "-ệnāh"]]
                  }
                 {:label "hebrew-VCyCBPerf-sym"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :MidWeak,
                           :derivedStem :B,
@@ -1361,7 +1361,7 @@
                          [:Plural :Person3 :Fem "śām-û" " " "śām" "-û"]]
                  }
                 {:label "hebrew-VHCCBImperf-hzq"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_aClass,
                           :derivedStem :B,
@@ -1382,7 +1382,7 @@
                          [:Plural :Person3 :Fem "te-ḥĕzaq-nāh" "te-" "ḥĕzaq" "-nāh"]]
                  }
                 {:label "hebrew-VHCCBImperf-md"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_oClass,
                           :derivedStem :B,
@@ -1403,7 +1403,7 @@
                          [:Plural :Person3 :Fem "ta-ʕămōḏ-nāh" "ta-" "ʕămōḏ" "-nāh"]]
                  }
                 {:label "hebrew-VHCCBImprtv-hzq"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_aClass,
                           :derivedStem :B,
@@ -1419,7 +1419,7 @@
                          [:Plural :Fem "ḥăzaq-nāh" " " "ḥăzaq" "-nāh"]]
                  }
                 {:label "hebrew-VHCCBImprtv-md"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_oClass,
                           :derivedStem :B,
@@ -1435,7 +1435,7 @@
                          [:Plural :Fem "ʕămōḏ-nāh" " " "ʕămōḏ" "-nāh"]]
                  }
                 {:label "hebrew-VHCCBJuss-hzq"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_aClass,
                           :derivedStem :B,
@@ -1456,7 +1456,7 @@
                          [:Plural :Person3 :Fem "te-ḥĕzaq-nāh" "te-" "ḥĕzaq" "-nāh"]]
                  }
                 {:label "hebrew-VHCCBJuss-md"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_oClass,
                           :derivedStem :B,
@@ -1477,7 +1477,7 @@
                          [:Plural :Person3 :Fem "ta-ʕămōḏ-nāh" "ta-" "ʕămōḏ" "-nāh"]]
                  }
                 {:label "hebrew-VHCCBPerf-hzq"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_aClass,
                           :derivedStem :B,
@@ -1498,7 +1498,7 @@
                          [:Plural :Person3 :Fem "ḥāzǝq-û" " " "ḥāzǝq" "-û"]]
                  }
                 {:label "hebrew-VHCCBPerf-md"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_oClass,
                           :derivedStem :B,
@@ -1519,7 +1519,7 @@
                          [:Plural :Person3 :Fem "ʕāmǝḏ-û" " " "ʕāmǝḏ" "-û"]]
                  }
                 {:label "hebrew-VNCCBImperf-ng_"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :AClass,
                           :derivedStem :B,
@@ -1540,7 +1540,7 @@
                          [:Plural :Person3 :Fem "ti-ggaʕ-nāh" "ti-" "ggaʕ" "-nāh"]]
                  }
                 {:label "hebrew-VNCCBImperf-npl"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_oClass,
                           :derivedStem :B,
@@ -1561,7 +1561,7 @@
                          [:Plural :Person3 :Fem "ti-ppōl-nāh" "ti-" "ppōl" "-nāh"]]
                  }
                 {:label "hebrew-VNCCBImperf-ntn"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_eClass,
                           :derivedStem :B,
@@ -1582,7 +1582,7 @@
                          [:Plural :Person3 :Fem "ti-ttēn-nāh" "ti-" "ttēn" "-nāh"]]
                  }
                 {:label "hebrew-VNCCBImprtv-ng_"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :AClass,
                           :derivedStem :B,
@@ -1598,7 +1598,7 @@
                          [:Plural :Fem "gaʕ-nāh" " " "gaʕ" "-nāh"]]
                  }
                 {:label "hebrew-VNCCBImprtv-npl"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_oClass,
                           :derivedStem :B,
@@ -1614,7 +1614,7 @@
                          [:Plural :Fem "nǝp̄ōl-nāh" " " "nǝp̄ōl" "-nāh"]]
                  }
                 {:label "hebrew-VNCCBImprtv-ntn"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_eClass,
                           :derivedStem :B,
@@ -1630,7 +1630,7 @@
                          [:Plural :Fem "tēn-nāh" " " "tēn" "-nāh"]]
                  }
                 {:label "hebrew-VNCCBJuss-ng_"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :AClass,
                           :derivedStem :B,
@@ -1651,7 +1651,7 @@
                          [:Plural :Person3 :Fem "ti-ggaʕ-nāh" "ti-" "ggaʕ" "-nāh"]]
                  }
                 {:label "hebrew-VNCCBJuss-npl"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_oClass,
                           :derivedStem :B,
@@ -1672,7 +1672,7 @@
                          [:Plural :Person3 :Fem "ti-ppōl-nāh" "ti-" "ppōl" "-nāh"]]
                  }
                 {:label "hebrew-VNCCBJuss-ntn"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_eClass,
                           :derivedStem :B,
@@ -1693,7 +1693,7 @@
                          [:Plural :Person3 :Fem "ti-ttēn-nāh" "ti-" "ttēn" "-nāh"]]
                  }
                 {:label "hebrew-VNCCBPerf-ng_"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :AClass,
                           :derivedStem :B,
@@ -1714,7 +1714,7 @@
                          [:Plural :Person3 :Fem "nāḡǝʕ-û" " " "nāḡǝʕ" "-û"]]
                  }
                 {:label "hebrew-VNCCBPerf-npl"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_oClass,
                           :derivedStem :B,
@@ -1735,7 +1735,7 @@
                          [:Plural :Person3 :Fem "nāp̄ǝl-û" " " "nāp̄ǝl" "-û"]]
                  }
                 {:label "hebrew-VNCCBPerf-ntn"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_eClass,
                           :derivedStem :B,
@@ -1756,7 +1756,7 @@
                          [:Plural :Person3 :Fem "nāṯǝn-û" " " "nāṯǝn" "-û"]]
                  }
                 {:label "hebrew-VWCCBImperf-ysb"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_eClass,
                           :derivedStem :B,
@@ -1777,7 +1777,7 @@
                          [:Plural :Person3 :Fem "tē-šaḇ-nāh" "tē-" "šaḇ" "-nāh"]]
                  }
                 {:label "hebrew-VWCCBImprtv-ysb"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_eClass,
                           :derivedStem :B,
@@ -1793,7 +1793,7 @@
                          [:Plural :Fem "šēḇ-nāh" " " "šēḇ" "-nāh"]]
                  }
                 {:label "hebrew-VWCCBJuss-ysb"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_eClass,
                           :derivedStem :B,
@@ -1814,7 +1814,7 @@
                          [:Plural :Person3 :Fem "tē-šaḇ-nāh" "tē-" "šaḇ" "-nāh"]]
                  }
                 {:label "hebrew-VWCCBPerf-ysb"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_eClass,
                           :derivedStem :B,
@@ -1835,7 +1835,7 @@
                          [:Plural :Person3 :Fem "yāšǝḇ-û" " " "yāšǝḇ" "-û"]]
                  }
                 {:label "hebrew-VYCCBImperf-ytb"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_aClass,
                           :derivedStem :B,
@@ -1856,7 +1856,7 @@
                          [:Plural :Person3 :Fem "tî-ṭaḇ-nāh" "tî-" "ṭaḇ" "-nāh"]]
                  }
                 {:label "hebrew-VYCCBImprtv-ytb"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_aClass,
                           :derivedStem :B,
@@ -1872,7 +1872,7 @@
                          [:Plural :Fem "yǝṭaḇ-nāh" " " "yǝṭaḇ" "-nāh"]]
                  }
                 {:label "hebrew-VYCCBJuss-ytb"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_aClass,
                           :derivedStem :B,
@@ -1893,7 +1893,7 @@
                          [:Plural :Person3 :Fem "tî-ṭaḇ-nāh" "tî-" "ṭaḇ" "-nāh"]]
                  }
                 {:label "hebrew-VYCCBPerf-ytb"
-                 :note "Lambdin1971"
+                 :note "L71p."
                  :common {:vmorphClass :Finite,
                           :ablautClass :A_aClass,
                           :derivedStem :B,
@@ -1914,7 +1914,7 @@
                          [:Plural :Person3 :Fem "yāṭǝḇ-û" " " "yāṭǝḇ" "-û"]]
                  }
                 {:label "hebrew-PDem"
-                 :note "Lambdin1971 pp. 34-35."
+                 :note "L71pp.34-35"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Demonstrative}
                  :terms [[:deixis :number :gender :token],
@@ -1928,7 +1928,7 @@
                          [:Near :Plural :Fem "ʾēlleh"]]
                  }
                 {:label "hebrew-PIndep"
-                 :note "Lambdin1971 p. 82. These are the nom(inative) pronouns (used for subjects);dat(ive) pronouns (used for indirect objects;the preposition ʾeṯ plus suffixes);and acc(usative) pronouns (used for direct objects;the definite direct object marker ʾeṯ plus suffixes)."
+                 :note "L71p.82 :: These are the nom(inative) pronouns (used for subjects);dat(ive) pronouns (used for indirect objects;the preposition ʾeṯ plus suffixes);and acc(usative) pronouns (used for direct objects;the definite direct object marker ʾeṯ plus suffixes)."
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Independent}
                  :terms [[:case :number :person :gender :token],
@@ -1964,7 +1964,7 @@
                          [:Nominative :Plural :Person3 :Fem "hēnnāh"]]
                  }
                 {:label "hebrew-PLamedSuff"
-                 :note "Lambdin1971 p. 31;particle of existence or non-existence plus the lamed,often with pronominal suffixes,indicates possession."
+                 :note "L71p.31 :: particle of existence or non-existence plus the lamed,often with pronominal suffixes,indicates possession."
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :lamedSuff}
                  :terms [[:numHead :number :person :gender :token],
@@ -1990,7 +1990,7 @@
                          [:HeadSingular :Plural :Person3 :Fem "-ān"]]
                  }
                 {:label "hebrew-PObjClitic"
-                 :note "Lambdin1971 p. 260;Hebrew uses 3 object suffixes for the perfective and 2 suffixes for prefix forms (imperfective and jussive). * = the 2p forms are rare and were presumably –kem and –ken in each case. juss = Jussive/Short Forms (including imperative forms;imperative forms ending in a vowel drop the initial vowel -ē- in the following forms).The environments are as follows:env1 = suffix is post-consonantal and stressed (3ms and 2ms perfective forms);env2 = suffix is post-vocalic and unstressed (2fs,1cs,3cp,2m/fp,1cp perfective forms);env3 = suffix is post-consonantal and unstressed (3fs perfective forms);env4 = suffixes on Prefix Forms (the two paradigms are distributed as here as a tendency,but not as a rule)"
+                 :note "L71p.260 :: Hebrew uses 3 object suffixes for the perfective and 2 suffixes for prefix forms (imperfective and jussive). * = the 2p forms are rare and were presumably –kem and –ken in each case. juss = Jussive/Short Forms (including imperative forms;imperative forms ending in a vowel drop the initial vowel -ē- in the following forms).The environments are as follows:env1 = suffix is post-consonantal and stressed (3ms and 2ms perfective forms);env2 = suffix is post-vocalic and unstressed (2fs,1cs,3cp,2m/fp,1cp perfective forms);env3 = suffix is post-consonantal and unstressed (3fs perfective forms);env4 = suffixes on Prefix Forms (the two paradigms are distributed as here as a tendency,but not as a rule)"
                  :common {:case :Object,
                           :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :ObjClitic}
@@ -2047,7 +2047,7 @@
                          [:Perfect :Plural :Person3 :Fem "-an" "env3"]]
                  }
                 {:label "hebrew-VSubjMarker"
-                 :note ""
+                 :note "L71p."
                  :common {             :pos :Verb,
                           :vmorphClass :SubjMarker}
                  :terms [[:tam :number :person :gender :token :token-pref :token-stem :token-suff],
